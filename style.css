@@ -17,6 +17,7 @@ html {
 header {
     position: fixed;
     top: 0; left: 0; right: 0;
+    height: 80px;
     background: linear-gradient(90deg, #007bff, #6610f2);
     padding: 2rem 8%;
     display: flex;
@@ -57,6 +58,10 @@ header .fa-bars {
     cursor: pointer;
     border:.1rem solid whitesmoke;
     display: none;
+}
+
+main {
+    margin-top: 80px;
 }
 
 table {
@@ -122,6 +127,7 @@ footer a {
 footer a:hover {
     color: black;
 }
+
 
 
 
